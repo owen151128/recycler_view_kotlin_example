@@ -6,6 +6,7 @@ object Versions {
     const val appCompat = "1.2.0"
     const val material = "1.2.1"
     const val constraintLayout = "2.0.4"
+    const val recyclerView = "1.1.0"
 
     const val junit = "4.13.1"
     const val extJunit = "1.1.2"

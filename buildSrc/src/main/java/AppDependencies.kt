@@ -10,6 +10,8 @@ object AppDependencies {
     private const val constraintLayout =
         "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
 
+    private const val recyclerView = "androidx.recyclerview:recyclerview:${Versions.recyclerView}"
+
     private const val jUnit = "junit:junit:${Versions.junit}"
     private const val extJUnit = "androidx.test.ext:junit:${Versions.extJunit}"
     private const val espressoCore = "androidx.test.espresso:espresso-core:${Versions.espresso}"
@@ -20,6 +22,7 @@ object AppDependencies {
         add(appCompat)
         add(material)
         add(constraintLayout)
+        add(recyclerView)
     }
 
     val androidTestLibraries = mutableListOf<String>().apply {
